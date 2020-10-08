@@ -7,14 +7,31 @@ STIndex is a Java package that provides out-of-the-box supports for indexing spa
 ## Installation
 
 ### Maven
-Updating...
+Add the following dependency to the *pom.xml*.
+```xml
+<dependency>
+    <groupId>com.github.tm</groupId>
+    <artifactId>stindex</artifactId>
+    <version>0.1.0</version>
+</dependency>
+```
 
 ### From source
+First, compile the source with maven.
 ```shell
-git clone https://github.com/STDI-Sys/stindex.git
+git clone https://github.com/traj-explorer/stindex.git
 cd stindex
 mvn clean install -DskipTests
 ```
+Then add the following dependency to the *pom.xml*.
+```xml
+<dependency>
+    <groupId>com.github.tm</groupId>
+    <artifactId>stindex</artifactId>
+    <version>0.1.0</version>
+</dependency>
+```
+
 ## Getting Started
 Updating...
 
